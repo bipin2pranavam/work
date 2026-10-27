@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let name=prompt("Enter your name");
+let age=Number(prompt("Enter your Age:"));
+let mark=Number(prompt("Enter your Mark1"));
+let mark2=Number(prompt("Enter your Mark2:"));
+let mark3=Number(prompt("Enter your Mark3:"));
+sum=mark+mark2+mark3;
+avg=sum/3;
+document.write("Total Mark is:",sum);
+document.write("<br>");
+document.write("Average is",avg);
+document.write("<br>");
+if(age>=18 && avg>=70)
+{
+    document.write("You Passed");
+}else{
+    document.write("You Failed");
+}
+    </script>
+</body>
+</html>
